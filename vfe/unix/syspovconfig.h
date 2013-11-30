@@ -113,9 +113,4 @@ const int NULL=0;
 #define METADATA_PLATFORM_STRING BUILD_ARCH
 #define METADATA_COMPILER_STRING COMPILER_VERSION
 
-#define DECLARE_THREAD_LOCAL_PTR(ptrType, ptrName)                __thread ptrType *ptrName
-#define IMPLEMENT_THREAD_LOCAL_PTR(ptrType, ptrName, ignore)      __thread ptrType *ptrName
-#define GET_THREAD_LOCAL_PTR(ptrName)                             (ptrName)
-#define SET_THREAD_LOCAL_PTR(ptrName, ptrValue)                   (ptrName = ptrValue)
-
 #endif

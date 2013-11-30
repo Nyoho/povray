@@ -36,6 +36,7 @@
 #ifndef __VFESESSION_H__
 #define __VFESESSION_H__
 
+#include <sys/types.h>
 #include <queue>
 
 #include "base/image/colourspace.h"

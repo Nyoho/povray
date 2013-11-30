@@ -36,6 +36,7 @@
 #ifndef __VFEPLATFORM_H__
 #define __VFEPLATFORM_H__
 
+#include <sys/types.h>
 #include <boost/shared_ptr.hpp>
 
 namespace vfePlatform
